@@ -16,49 +16,45 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇨🇦 CA_A, "type":"trojan","server":"172.67.204.84","port":443,"udp":true,"password":"qj1Dz1CJmFQRhWr1SP80aA","sni":"cdn-21.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
-  - {name: 🇨🇦 CA_B, server: 104.21.46.66, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}}
-  - {name: 🇨🇦 CA_C, "type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
+  - {name: 🇨🇦 CA_B, "type":"vless","server":"199.193.127.249","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07k.ylks.link"}}}
+  - {name: 🇨🇦 CA_C, "type":"vless","server":"38.207.176.73","port":30502,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"aut.vtcss.top"}}}
   - {name: 🇨🇦 CA_D, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
   - {name: 🇨🇦 CA_E, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}}
-  - {name: 🇨🇦 CA_F, server: 172.67.66.46, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}, udp: true}
-  - {name: 🇺🇸 US_A, "type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
-  - {name: 🇺🇸 US_B, "type":"vless","server":"47.76.32.108","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"05jp.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"05jp.ylks01.eu.org"}}}
+  - {name: 🇨🇦 CA_F, "type":"vless","server":"skk.moe","port":2053,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.xujiang.link"}}}
+  - {name: 🇺🇸 US_A, server: fastly.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}, udp: true}
+  - {name: 🇺🇸 US_B, "type":"vmess","server":"172.67.130.140","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
   - {name: 🇺🇸 US_C, server: 162.159.136.253, port: 8080, type: vmess, uuid: ade73e62-7554-40a8-9314-195a372bae28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/7bFcoRZS?ed=2048", headers: {Host: xentain.kmoljklj.top}}, udp: true}
-  - {name: 🇺🇸 US_D, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}}
-  - {name: 🇺🇸 US_E, server: de-01.cloudlion.me, port: 8080, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de-01.cloudlion.me}}}
-  - {name: 🇺🇸 US_F, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
-  - {name: 🇯🇵 JP_A, server: 74.48.221.237, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.68841301.xyz}}, udp: true}
-  - {name: 🇯🇵 JP_B, "type":"vless","server":"47.91.3.179","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"05k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"05k.ylks.link"}}}
-  - {name: 🇯🇵 JP_C, server: japan.pxiz.site, port: 54752, type: vmess, uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 JP_D, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇯🇵 JP_E, server: 172.67.204.84, port: 443, client-fingerprint: chrome, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: 443trojan}, udp: true}
+  - {name: 🇺🇸 US_D, "type":"vless","server":"45.159.216.203","port":443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com","network":"ws","ws-opts":{"path":"/edgetunnel-e19.pages.dev/proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com"}}}
+  - {name: 🇺🇸 US_E, "type":"vless","server":"165.1.79.60","port":8443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"aut.vtcss.top"}}}
+  - {name: 🇺🇸 US_F, "type":"vless","server":"202.91.35.9","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07k.ylks.link"}}}
+  - {name: 🇯🇵 JP_A, "type":"vless","server":"47.245.10.123","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07k.ylks.link"}}}
+  - {name: 🇯🇵 JP_B, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.openxai.link}}}
+  - {name: 🇯🇵 JP_C, server: 172.67.169.158, port: 8080, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr-01.cloudlion.me}}}
+  - {name: 🇯🇵 JP_D, "type":"vless","server":"47.91.15.247","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07k.ylks.link"}}}
+  - {name: 🇯🇵 JP_E, "type":"vless","server":"131.186.27.112","port":2096,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"w3.sylarsun.eu.org"}}}
   - {name: 🇯🇵 JP_F, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇸🇬 SG_A, "type":"vless","server":"8.209.214.222","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"05k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"05k.ylks.link"}}}
-  - {name: 🇸🇬 SG_B, "type":"vless","server":"173.245.59.76","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"05k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"05k.ylks.link"}}}
-  - {name: 🇸🇬 SG_C, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}}
-  - {name: 🇸🇬 SG_D, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇸🇬 SG_E, "type":"vless","server":"47.74.26.132","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"05k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"05k.ylks.link"}}}
-  - {name: 🇸🇬 SG_F, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇹🇼 TWA, server: 36.226.155.245, port: 5681, type: vmess, uuid: ff0a98ef-e829-4a62-b625-998593df5249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG_A, "type":"vless","server":"8.222.167.147","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07jp.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07jp.ylks01.eu.org"}}}
+  - {name: 🇸🇬 SG_B, "type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
+  - {name: 🇸🇬 SG_C, server: 151.101.3.10, port: 80, type: vmess, uuid: 041f0d5b-c647-4a8d-8e4e-fa7f3526a490, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: mihoyo.gov.kp}}}
+  - {name: 🇸🇬 SG_D, "type":"vmess","server":"fbi.gov","port":8080,"cipher":"auto","uuid":"0a5903c5-0ff3-4d79-9420-2a966873f787","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"0a5903c5-0ff3-4d79-9420-2a966873f787-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {name: 🇸🇬 SG_E, "type":"vless","server":"47.74.15.117","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07k.ylks.link"}}}
+  - {name: 🇸🇬 SG_F, "type":"vless","server":"34.145.145.76","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07k.ylks.link"}}}
+  - {name: 🇹🇼 TWA, "type":"vless","server":"118.163.101.44","port":44332,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.xujiang.link"}}}
   - {name: 🇹🇼 TWB, server: zula.ir, port: 443, client-fingerprint: chrome, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: 443trojan}, udp: true}
-  - {name: 🇹🇼 TWC, server: 183.237.20.150, port: 44602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 TWD, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇫🇷 FRA, server: 104.21.46.66, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: 🇫🇷 FRB, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
-  - {name: 🇫🇷 FRC, server: 18.175.36.19, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 FRD, server: cfcdn1.sanfencdn9.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
-  - {name: 🇭🇰 HKA, "type":"vless","server":"acjp2.cloudflarest.link","port":8080,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":false,"servername":"05k.ylks.link","network":"ws","ws-opts":{"path":"/youtube-由零開始","headers":{"host":"05k.ylks.link"}}}
-  - {name: 🇭🇰 HKB, server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com, port: 56005, type: ss, cipher: chacha20-ietf-poly1305, password: mai9t5nk91, udp: true}
-  - {name: 🇭🇰 HKC, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
-  - {name: 🇭🇰 HKD, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KRA, server: 3.141.119.222, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KRB, server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
-  - {name: 🇰🇷 KRC, server: 172.67.253.230, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}}
-  - {name: 🇰🇷 KRD, server: es-full.privateip.net, port: 443, type: trojan, password: b556587e-6b3a-4cca-b379-714bfae91515}
-  - {name: 🇰🇷 KRE, server: 172.67.136.12, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}}
-  - {name: 🇬🇧 GBA, server: 156.249.18.74, port: 41000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.11977475.xyz}}, udp: true}
-  - {name: 🇬🇧 GBB, server: 38.38.169.109, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.87044255.xyz}}, udp: true}
-  - {name: 🇬🇧 GBC, server: jseyu.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 🇹🇼 TWC, server: onea.flha.ru, port: 2052, type: vmess, uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇹🇼 TWD, "type":"vless","server":"168.126.108.232","port":21252,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07jp.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"07jp.ylks01.eu.org"}}}
+  - {name: 🇫🇷 FRA, "type":"vless","server":"199.193.127.249","port":443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"xin.vtcss.top"}}}
+  - {name: 🇫🇷 FRB, "type":"vless","server":"47.76.146.1","port":2053,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"w3.sylarsun.eu.org"}}}
+  - {name: 🇫🇷 FRC, "type":"vless","server":"47.91.14.62","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"07k.ylks.link","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"07k.ylks.link"}}}
+  - {name: 🇫🇷 FRD, "type":"vless","server":"192.65.217.107","port":443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"aut.vtcss.top"}}}
+  - {name: 🇰🇷 KRA, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
+  - {name: 🇰🇷 KRB, server: 104.21.23.231, port: 2052, type: vmess, uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇰🇷 KRC, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇰🇷 KRD, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
+  - {name: 🇰🇷 KRE, "type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
+  - {name: 🇬🇧 GBA, "type":"vless","server":"31.43.179.55","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"06jp.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"06jp.ylks01.eu.org"}}}
+  - {name: 🇬🇧 GBB, server: 104.16.67.38, port: 80, type: vmess, uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: f8c92b3b, headers: {Host: aq.daozhang.link}}, udp: true}
+  - {name: 🇬🇧 GBC, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -97,10 +93,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
@@ -146,10 +138,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
@@ -196,10 +184,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
@@ -258,10 +242,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
@@ -312,10 +292,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
@@ -361,10 +337,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
@@ -411,10 +383,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
@@ -470,10 +438,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇭🇰 HKA
-      - 🇭🇰 HKB
-      - 🇭🇰 HKC
-      - 🇭🇰 HKD
       - 🇰🇷 KRA
       - 🇰🇷 KRB
       - 🇰🇷 KRC
