@@ -15,76 +15,82 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇨🇦 CA_A, "type":"trojan","server":"172.67.204.84","port":443,"udp":true,"password":"qj1Dz1CJmFQRhWr1SP80aA","sni":"cdn-21.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
-  - {name: 🇨🇦 CA_B, server: 104.21.23.231, port: 2052, type: vmess, uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
-  - {name: 🇨🇦 CA_C, server: 172.64.161.60, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}, udp: true}
-  - {name: 🇨🇦 CA_D, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
-  - {name: 🇨🇦 CA_E,  server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
-  - {name: 🇨🇦 CA_F, "type":"vless","server":"skk.moe","port":2053,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.xujiang.link"}}}
-  - {name: 🇺🇸 US_A, "type":"vless","server":"47.76.32.108","port":2053,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut1.vtcss.top","network":"ws","ws-opts":{"path":"/proxyip=154.92.9.28","headers":{"host":"aut1.vtcss.top"}}}
-  - {name: 🇺🇸 US_B, server: 18.170.157.152, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇺🇸 US_C, server: 162.159.136.253, port: 8080, type: vmess, uuid: ade73e62-7554-40a8-9314-195a372bae28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/7bFcoRZS?ed=2048", headers: {Host: xentain.kmoljklj.top}}, udp: true}
-  - {name: 🇺🇸 US_D, server: 52.178.196.157, port: 11429, type: ss, cipher: chacha20-ietf-poly1305, password: i7CDBphJenDsfdEqcM8yUH}
-  - {name: 🇺🇸 US_E, server: cloudflare.cfgo.cc, port: 80, type: vmess, uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wap.hostmjj.com}}}
-  - {name: 🇺🇸 US_F, server: 18.130.197.199, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
-  - {name: 🇯🇵 JP_A, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
-  - {name: 🇯🇵 JP_B, server: 104.19.250.132, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}, udp: true}
-  - {name: 🇯🇵 JP_C, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}}
-  - {name: 🇯🇵 JP_D, server: 35.178.1.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: 🇯🇵 JP_E, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: 🇯🇵 JP_F, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇸🇬 SG_A, server: 112.120.127.194, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG_B, "type":"vless","server":"102.177.176.22","port":2083,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"xin.vtcss.top"}}}
-  - {name: 🇸🇬 SG_C, "type":"vless","server":"47.245.39.28","port":2083,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut1.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"aut1.vtcss.top"}}}
-  - {name: 🇸🇬 SG_D, server: cfcdn2.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
-  - {name: 🇸🇬 SG_E, server: 52.178.209.160, port: 2606, type: ss, cipher: chacha20-ietf-poly1305, password: zh7ETDQRvHCsIIPIrSHwHa, udp: true}
-  - {name: 🇸🇬 SG_F, server: 52.178.196.34, port: 54559, type: ss, cipher: chacha20-ietf-poly1305, password: wP1HHo24lGRUoVTBJwv92o, udp: true}
+- {name: 🇬🇧 GBC, 
+
+  - {name: 🇨🇦 CAA, server: 18.199.138.33, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
+  - {name: 🇨🇦 CAB, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CAC, server: 154.47.20.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 🇨🇦 CAD, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
+  - {name: 🇨🇦 CAE, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
+  - {name: 🇨🇦 CAF, "type":"vless","server":"skk.moe","port":2053,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.xujiang.link"}}}
+  - {name: 🇺🇸 USAA, "type":"vmess","server":"104.21.54.252","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.velvetmountain.shop"}}}
+  - {name: 🇺🇸 USAB, server: achk.cloudflarest.link, port: 443, type: vmess, uuid: 36146255-3fec-45fe-aa53-e0c63c6c7ee1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /a3, headers: {Host: mg1.t1csyun.shop}}, udp: true}
+  - {name: 🇺🇸 USAC, "type":"vless","server":"131.186.47.255","port":2053,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.xujiang.link"}}}
+  - {name: 🇺🇸 USAD, server: 4.namesilo123.top, port: 80, type: vmess, uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sanfen002.top}}, udp: true}
+  - {name: 🇺🇸 USAE, "type":"vmess","server":"183.232.170.22","port":30058,"cipher":"auto","uuid":"5635bc13-e51c-4381-ae56-949406fbd3ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇺🇸 USAF, "type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
+  - {name: 🇺🇸 USA, server: 13.37.70.207, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 USB, "type":"vmess","server":"fbi.gov","port":8080,"cipher":"auto","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm","headers":{"host":"bibliographic-sword-sequence-advertisers.trycloudflare.com"}}}
+  - {name: 🇺🇸 USC, "type":"vmess","server":"134.122.41.160","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {name: 🇺🇸 USD, "type":"vmess","server":"172.67.130.140","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {name: 🇺🇸 USE, server: 119.23.104.213, port: 8474, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, tfo: false, udp: true}
+  - {name: 🇺🇸 USF, server: 104.16.67.38, port: 80, type: vmess, uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: f8c92b3b, headers: {Host: aq.daozhang.link}}}
+  - {name: 🇯🇵 JPA, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
+  - {name: 🇯🇵 JPB, "type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
+  - {name: 🇯🇵 JPC, server: 139.59.24.215, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [internet.life.com.by]}}, udp: true}
+  - {name: 🇯🇵 JPD, server: 172.67.177.106, port: 2082, type: vmess, uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: freezhang.sanfen002.top}}}
+  - {name: 🇯🇵 JPE, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}}
+  - {name: 🇯🇵 JPF, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SGA, "type":"vmess","server":"russia.com","port":8880,"cipher":"auto","uuid":"6658a3a6-225a-4d33-a5d2-82cfde565b4e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
+  - {name: 🇸🇬 SGB, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [internet.life.com.by]}}, udp: true}
+  - {name: 🇸🇬 SGC, server: sazgar55.servecounterstrike.com, port: 80, type: vmess, uuid: f3dc9e24-5ae9-4d33-808c-db113d2ff331, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sazgar55.servecounterstrike.com}}}
+  - {name: 🇸🇬 SGD, "type":"vmess","server":"51.159.155.52","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {name: 🇸🇬 SGE, server: 62.133.61.35, port: 61227, type: ss, cipher: chacha20-ietf-poly1305, password: EOPuc7Xjh5phFbuLyVTQur}
+  - {name: 🇸🇬 SGF, server: 80.71.157.105, port: 80, type: vmess, uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: نام.کانال.تلگرام.VPNHTTPInjectorfree}}, udp: true}
   - {name: 🇹🇼 TWA, "type":"vless","server":"118.163.101.44","port":44332,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.xujiang.link"}}}
   - {name: 🇹🇼 TWB, server: zula.ir, port: 443, client-fingerprint: chrome, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: 443trojan}, udp: true}
-  - {name: 🇹🇼 TWC, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c, sni: b13.ntbq.dynu.net}
+  - {name: 🇹🇼 TWC, server: 104.21.220.117, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}}
   - {name: 🇹🇼 TWD, server: data-us-v1.shwjfkw.cn, port: 20401, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
   - {name: 🇫🇷 FRA, "type":"vless","server":"199.193.127.249","port":443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"xin.vtcss.top"}}}
-  - {name: 🇫🇷 FRB, "type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
-  - {name: 🇫🇷 FRC, server: java.ct.arvancode.eu.Org, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false, udp: true}
-  - {name: 🇫🇷 FRD, "type":"vless","server":"192.65.217.107","port":443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut.vtcss.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"aut.vtcss.top"}}}
-  - {name: 🇰🇷 KRA, server: tw1.indianonlinejob2.com, port: 20005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a7fe5385-1777-4e29-9e0a-fa59efb2f5c3, tfo: false, udp: true}
-  - {name: 🇰🇷 KRB, server: 119.23.104.213, port: 8474, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, tfo: false, udp: true}
-  - {name: 🇰🇷 KRC, server: kr2.indianonlinejob2.com, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: a7fe5385-1777-4e29-9e0a-fa59efb2f5c3}
-  - {name: 🇰🇷 KRD, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇰🇷 KRE, server: 114.37.139.180, port: 3271, type: trojan, password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c, sni: b24.ntbq.dynu.net}
-  - {name: 🇬🇧 GBA, server: 52.178.199.66, port: 8308, type: ss, cipher: chacha20-ietf-poly1305, password: zxH166M3Ggi27kArEX9OGk}
-  - {name: 🇬🇧 GBB, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}}
-  - {name: 🇬🇧 GBC, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FRB, server: 146.59.102.109, port: 35230, type: ss, cipher: aes-256-gcm, password: lSreYGyaPfCsJQWf}
+  - {name: 🇫🇷 FRC, server: 104.21.20.19, port: 80, type: vmess, uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de2.xv2ray.net}}}
+  - {name: 🇫🇷 FRD, server: yh2.dtku41.xyz, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -93,43 +99,41 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -138,44 +142,42 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -184,14 +186,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -210,30 +204,36 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -242,14 +242,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -260,30 +252,36 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -292,43 +290,41 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -337,44 +333,42 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -383,14 +377,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -406,30 +392,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 CA_A
-      - 🇨🇦 CA_B
-      - 🇨🇦 CA_C
-      - 🇨🇦 CA_D
-      - 🇨🇦 CA_E
-      - 🇨🇦 CA_F
-      - 🇺🇸 US_A
-      - 🇺🇸 US_B
-      - 🇺🇸 US_C
-      - 🇺🇸 US_D
-      - 🇺🇸 US_E
-      - 🇺🇸 US_F
-      - 🇯🇵 JP_A
-      - 🇯🇵 JP_B
-      - 🇯🇵 JP_C
-      - 🇯🇵 JP_D
-      - 🇯🇵 JP_E
-      - 🇯🇵 JP_F
-      - 🇸🇬 SG_A
-      - 🇸🇬 SG_B
-      - 🇸🇬 SG_C
-      - 🇸🇬 SG_D
-      - 🇸🇬 SG_E
-      - 🇸🇬 SG_F
+      - 🇨🇦 CAA
+      - 🇨🇦 CAB
+      - 🇨🇦 CAC
+      - 🇨🇦 CAD
+      - 🇨🇦 CAE
+      - 🇨🇦 CAF
+      - 🇺🇸 USAA
+      - 🇺🇸 USAB
+      - 🇺🇸 USAC
+      - 🇺🇸 USAD
+      - 🇺🇸 USAE
+      - 🇺🇸 USAF
+      - 🇺🇸 USA
+      - 🇺🇸 USB
+      - 🇺🇸 USC
+      - 🇺🇸 USD
+      - 🇺🇸 USE
+      - 🇺🇸 USF
+      - 🇯🇵 JPA
+      - 🇯🇵 JPB
+      - 🇯🇵 JPC
+      - 🇯🇵 JPD
+      - 🇯🇵 JPE
+      - 🇯🇵 JPF
+      - 🇸🇬 SGA
+      - 🇸🇬 SGB
+      - 🇸🇬 SGC
+      - 🇸🇬 SGD
+      - 🇸🇬 SGE
+      - 🇸🇬 SGF
       - 🇹🇼 TWA
       - 🇹🇼 TWB
       - 🇹🇼 TWC
@@ -438,14 +430,6 @@ proxy-groups:
       - 🇫🇷 FRB
       - 🇫🇷 FRC
       - 🇫🇷 FRD
-      - 🇰🇷 KRA
-      - 🇰🇷 KRB
-      - 🇰🇷 KRC
-      - 🇰🇷 KRD
-      - 🇰🇷 KRE
-      - 🇬🇧 GBA
-      - 🇬🇧 GBB
-      - 🇬🇧 GBC
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
