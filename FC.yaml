@@ -15,8 +15,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-- {name: 🇬🇧 GBC, 
-
   - {name: 🇨🇦 CAA, server: 18.199.138.33, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
   - {name: 🇨🇦 CAB, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CAC, server: 154.47.20.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
