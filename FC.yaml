@@ -80,11 +80,11 @@ dns:
 proxies:
   - {"name":"🇺🇸USA","type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
   - {"name":"🇺🇸USB","type":"vmess","server":"23.158.56.50","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"🇺🇸USC",server: series-a2.samanehha.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, tfo: false, udp: true}
+  - {"name":"🇺🇸USC","type":"vmess","server":"104.21.8.157","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
   - {"name":"🇺🇸USD",server: sk01.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 1640b579-cff8-46bc-a657-3860b5455712, sni: sk01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
   - {"name":"🇺🇸USE","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"🇺🇸USF","type":"vmess","server":"23.158.56.50","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"🇺🇸USG",server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {"name":"🇺🇸USF","type":"trojan","server":"36.138.99.56","port":40316,"udp":true,"password":"MyYoZhfX","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸USG","type":"vmess","server":"172.67.130.140","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
   - {"name":"🇺🇸OpenAIA","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
   - {"name":"🇺🇸OpenAIB","type":"vmess","server":"45.82.31.164","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
   - {"name":"🇺🇸OpenAIC","type":"ss","server":"156.146.38.163","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
@@ -92,14 +92,6 @@ proxies:
   - {"name":"🇺🇸OpenAIE","type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
   - {"name":"🇺🇸OpenAIF","type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
   - {"name":"🇺🇸OpenAIG","type":"vmess","server":"23.158.56.50","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"🇺🇸USO","type":"ss","server":"156.146.38.163","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
-  - {"name":"🇺🇸USP","type":"vmess","server":"172.67.130.140","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
-  - {"name":"🇺🇸USQ","type":"vmess","server":"45.82.31.164","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"🇺🇸USR","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"🇺🇸USS","type":"trojan","server":"36.138.99.56","port":40316,"udp":true,"password":"MyYoZhfX","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸UST","type":"vmess","server":"104.21.8.157","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
-  - {"name":"🇺🇸USU","type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
-  - {"name":"🇺🇸USV","type":"vmess","server":"45.82.31.164","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -120,14 +112,6 @@ proxy-groups:
       - 🇺🇸OpenAIE
       - 🇺🇸OpenAIF
       - 🇺🇸OpenAIG
-      - 🇺🇸USO
-      - 🇺🇸USP
-      - 🇺🇸USQ
-      - 🇺🇸USR
-      - 🇺🇸USS
-      - 🇺🇸UST
-      - 🇺🇸USU
-      - 🇺🇸USV
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -148,14 +132,6 @@ proxy-groups:
       - 🇺🇸OpenAIE
       - 🇺🇸OpenAIF
       - 🇺🇸OpenAIG
-      - 🇺🇸USO
-      - 🇺🇸USP
-      - 🇺🇸USQ
-      - 🇺🇸USR
-      - 🇺🇸USS
-      - 🇺🇸UST
-      - 🇺🇸USU
-      - 🇺🇸USV
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -176,14 +152,6 @@ proxy-groups:
       - 🇺🇸OpenAIE
       - 🇺🇸OpenAIF
       - 🇺🇸OpenAIG
-      - 🇺🇸USO
-      - 🇺🇸USP
-      - 🇺🇸USQ
-      - 🇺🇸USR
-      - 🇺🇸USS
-      - 🇺🇸UST
-      - 🇺🇸USU
-      - 🇺🇸USV
   - name: 📲 电报信息
     type: select
     proxies:
@@ -203,14 +171,6 @@ proxy-groups:
       - 🇺🇸OpenAIE
       - 🇺🇸OpenAIF
       - 🇺🇸OpenAIG
-      - 🇺🇸USO
-      - 🇺🇸USP
-      - 🇺🇸USQ
-      - 🇺🇸USR
-      - 🇺🇸USS
-      - 🇺🇸UST
-      - 🇺🇸USU
-      - 🇺🇸USV
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -230,14 +190,6 @@ proxy-groups:
       - 🇺🇸OpenAIE
       - 🇺🇸OpenAIF
       - 🇺🇸OpenAIG
-      - 🇺🇸USO
-      - 🇺🇸USP
-      - 🇺🇸USQ
-      - 🇺🇸USR
-      - 🇺🇸USS
-      - 🇺🇸UST
-      - 🇺🇸USU
-      - 🇺🇸USV
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -257,14 +209,6 @@ proxy-groups:
       - 🇺🇸OpenAIE
       - 🇺🇸OpenAIF
       - 🇺🇸OpenAIG
-      - 🇺🇸USO
-      - 🇺🇸USP
-      - 🇺🇸USQ
-      - 🇺🇸USR
-      - 🇺🇸USS
-      - 🇺🇸UST
-      - 🇺🇸USU
-      - 🇺🇸USV
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -301,14 +245,6 @@ proxy-groups:
       - 🇺🇸OpenAIE
       - 🇺🇸OpenAIF
       - 🇺🇸OpenAIG
-      - 🇺🇸USO
-      - 🇺🇸USP
-      - 🇺🇸USQ
-      - 🇺🇸USR
-      - 🇺🇸USS
-      - 🇺🇸UST
-      - 🇺🇸USU
-      - 🇺🇸USV
 
 rules:
 # 本地/局域网地址
