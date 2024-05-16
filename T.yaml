@@ -17,33 +17,33 @@ dns:
 proxies: 
   - {name: 🇨🇦 CAA, "type":"ss","server":"156.146.38.163","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
   - {name: 🇨🇦 CAB, "type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
-  - {name: 🇨🇦 CAC, "type":"ss","server":"156.146.38.163","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
-  - {name: 🇨🇦 CAD, "type":"ss","server":"15.204.87.225","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {name: 🇨🇦 CAE, "type":"ss","server":"23.157.40.83","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {name: 🇨🇦 CAF, "type":"ss","server":"34.219.119.71","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {name: 🇺🇸 USA, "type":"ss","server":"15.204.87.225","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {name: 🇺🇸 USB, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 USC, "type":"vmess","server":"172.67.130.140","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {name: 🇨🇦 CAC, server: us-full.privateip.net, port: 443, type: vmess, uuid: 319ec53d-fdb6-41b5-b64f-f7f43c3f92c7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: us-full.privateip.net}}}
+  - {name: 🇨🇦 CAD, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+  - {name: 🇨🇦 CAE, "type":"trojan","server":"36.151.195.48","port":20344,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇨🇦 CAF, "type":"vmess","server":"104.19.250.15","port":2052,"cipher":"auto","uuid":"aec82fa6-ab70-4d0a-e7fb-422ef729d961","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"helanv6cf.inekokkk.top"}}}
+  - {name: 🇺🇸 USA, server: nl2-full.privateip.net, port: 443, type: trojan, password: 8c3d5b6b-63a5-477c-9745-86166c99acd3}
+  - {name: 🇺🇸 USB, "type":"vmess","server":"104.18.19.191","port":2052,"cipher":"auto","uuid":"aec82fa6-ab70-4d0a-e7fb-422ef729d961","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"helanv6cf.inekokkk.top"}}}
+  - {name: 🇺🇸 USC, ,"type":"vmess","server":"104.18.36.119","port":2052,"cipher":"auto","uuid":"aec82fa6-ab70-4d0a-e7fb-422ef729d961","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"helanv6cf.inekokkk.top"}}}
   - {name: 🇺🇸 USD, "type":"vmess","server":"yes.cnmjcn.net","port":16632,"cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
-  - {name: 🇺🇸 USE, server: 51.103.247.251, port: 52244, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: r8e3NWTgFYTAYkLj0A3tJb, tfo: false, udp: true}
-  - {name: 🇺🇸 USF, "type":"vmess","server":"104.21.8.157","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {name: 🇺🇸 USE, server: 1zg1yf-blnvbcw.0on68-ino1.my777999.top, port: 31999, type: ss, cipher: chacha20-ietf-poly1305, password: 53e70363-208c-4769-ac57-e930cc3b1625}
+  - {name: 🇺🇸 USF, server: 92.246.138.25, port: 35915, type: ss, cipher: chacha20-ietf-poly1305, password: rKcwIh46rwc0ngvwKpG6ki}
   - {name: 🇯🇵 JPA, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 JPB, "type":"vmess","server":"45.136.245.240","port":12910,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {name: 🇯🇵 JPC, "type":"vless","server":"steel.footballlovernews.com","port":443,"uuid":"ec880e3c-2817-4b89-9887-ccc1fb7e3a52","tls":true,"servername":"steel.footballlovernews.com","network":"ws","ws-opts":{"path":"/steel","headers":{"host":"steel.footballlovernews.com"}}}
-  - {name: 🇯🇵 JPD, server: go.alipay.ovh, port: 8080, type: vmess, uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: do-au.alipay.ovh}}}
+  - {name: 🇯🇵 JPD, server: m.cnmjin.net, port: 16632, client-fingerprint: chrome, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
   - {name: 🇯🇵 JPE, "type":"vless","server":"divide.footballlovernews.com","port":443,"uuid":"d15f5947-f95c-4cc4-b8e0-20219e4bc2d1","tls":true,"servername":"divide.footballlovernews.com","network":"ws","ws-opts":{"path":"/divide","headers":{"host":"divide.footballlovernews.com"}}}
-  - {name: 🇯🇵 JPF, server: data-us-v1.shwjfkw.cn, port: 20401, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
-  - {name: 🇸🇬 SGA, "type":"vless","server":"tomat.minusober.com","port":443,"uuid":"392a24d2-b87c-498e-a97a-51f3027f05c6","tls":true,"servername":"tomat.minusober.com","network":"ws","ws-opts":{"path":"/tomat","headers":{"host":"tomat.minusober.com"}}}
+  - {name: 🇯🇵 JPF, "type":"trojan","server":"36.151.195.48","port":20344,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇸🇬 SGA, server: 169.197.142.120, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇸🇬 SGB, server: 183.240.179.195, port: 15601, client-fingerprint: chrome, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SGC, server: 61.227.237.70, port: 443, type: vmess, uuid: 70c6c253-0bf7-4c96-9770-e8ae9679fb8a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇸🇬 SGD, server: 15.204.87.225, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇸🇬 SGE, server: data-jp-v1.usabooks.com.cn, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}}
+  - {name: 🇸🇬 SGC, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇸🇬 SGD, server: data-hk-v1.usabooks.com.cn, port: 20206, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}, udp: true}
+  - {name: 🇸🇬 SGE, server: 183.240.179.195, port: 15603, client-fingerprint: chrome, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 SGF, server: 112.29.94.23, port: 46011, type: trojan, password: MyYoZhfX, skip-cert-verify: true}
-  - {name: 🏁 OpnAIa, "type":"ss","server":"15.204.87.225","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {name: 🏁 OpnAIb, "type":"ss","server":"15.204.87.225","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {name: 🏁 OpnAIc, "type":"ss","server":"15.204.87.225","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {name: 🏁 OpnAId, "type":"ss","server":"23.157.40.83","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {name: 🏁 OpnAIe, "type":"ss","server":"23.157.40.83","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {name: 🏁 OpnAIa, "type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {name: 🏁 OpnAIb, "type":"ss","server":"156.146.38.163","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {name: 🏁 OpnAIc, "type":"trojan","server":"36.151.195.48","port":34057,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
+  - {name: 🏁 OpnAId, "type":"vmess","server":"russia.com","port":8880,"cipher":"auto","uuid":"64a57b5f-45e0-40c3-8316-97d0ff53fd96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
+  - {name: 🏁 OpnAIe, "type":"ss","server":"18.236.155.162","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {name: 🏁 OpnAIf, "type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
   - {name: 🏁 OpnAIh, "type":"vmess","server":"45.136.245.240","port":12910,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {name: 🏁 OpnAIi, "type":"ss","server":"156.146.38.163","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
