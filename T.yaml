@@ -15,151 +15,151 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇨🇦 CAA, server: 52.151.99.42, port: 58939, type: ss, cipher: chacha20-ietf-poly1305, password: jha5ZXvI7J4CkWQn4iB3AF}
-  - {name: 🇨🇦 CAB, server: 51.77.53.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 CAC, server: 104.19.53.145, port: 2053, client-fingerprint: chrome, type: trojan, password: 8557692d-c228-48f0-b6f9-50d44d4a2096, sni: tjjd.yzyx1.v6.army, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tjjd.yzyx1.v6.army}}, udp: true}
-  - {name: 🇨🇦 CAD, "type":"vmess","server":"104.17.156.224","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"in4.wish.ml"}}}
-  - {name: 🇨🇦 CAE, server: 172.67.204.84, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 02b3ec8f-f568-47c8-9746-fa9a24e547d6, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: fragment.mzolfaghari.homes, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: Freevpnhomes}, udp: true}
-  - {name: 🇨🇦 CAF, server: 51.77.53.200, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false, udp: true}
-  - {name: 🇺🇸 USA, server: 5.44.249.44, port: 3306, client-fingerprint: chrome, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: false, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
-  - {name: 🇺🇸 USB, server: 51.77.53.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 USC, server: 51.77.53.200, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 🇺🇸 USD, server: 51.77.53.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 USE, "type":"ss","server":"52.88.161.5","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {name: 🇺🇸 USF, server: 51.145.96.134, port: 18869, type: ss, cipher: chacha20-ietf-poly1305, password: V8QywnpW9gaAwJfzkStkVp}
-  - {name: 🇯🇵 JPA, server: 118.163.128.81, port: 13688, client-fingerprint: chrome, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}, udp: true}
-  - {name: 🇯🇵 JPB, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: 🇯🇵 JPC, server: 51.145.101.254, port: 19054, type: ss, cipher: chacha20-ietf-poly1305, password: mGUCxJURD8yHfXexvivQhJ}
-  - {name: 🇯🇵 JPD, server: 183.236.51.59, port: 54437, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JPE, "type":"vmess","server":"hk.wish.ml","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"in4.wish.ml"}}}
-  - {name: 🇯🇵 JPF, server: data-hk-v1.usabooks.com.cn, port: 20206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}}
-  - {name: 🇸🇬 SGA, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true}
-  - {name: 🇸🇬 SGB, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SGC, server: 120.233.42.83, port: 20206, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}, udp: true}
-  - {name: 🇸🇬 SGD, server: data-hk-v1.usabooks.com.cn, port: 20206, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}, udp: true}
-  - {name: 🇸🇬 SGE, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SGF, server: data-jp-v1.usabooks.com.cn, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}}
-  - {name: 🏁 OpnAIa, "type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
-  - {name: 🏁 OpnAIb, "type":"ss","server":"89.117.109.97","port":443,"password":"rhnAUMfOWIgjT917yYCG7u","cipher":"chacha20-ietf-poly1305"}
-  - {name: 🏁 OpnAIc, "type":"vmess","server":"23.154.136.2","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {name: 🏁 OpnAId, "type":"trojan","server":"36.151.195.48","port":20344,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
-  - {name: 🏁 OpnAIe, "type":"vmess","server":"158.51.121.36","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {name: 🏁 OpnAIf, "type":"ss","server":"212.102.53.195","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {name: 🏁 OpnAIh, "type":"vmess","server":"45.136.245.240","port":12910,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {name: 🏁 OpnAIi, "type":"ss","server":"94.228.165.178","port":58176,"password":"afKAHp1VfRWZu91LIi9o0D","cipher":"chacha20-ietf-poly1305"}
+  - {name: CAA, server: 52.151.99.42, port: 58939, type: ss, cipher: chacha20-ietf-poly1305, password: jha5ZXvI7J4CkWQn4iB3AF}
+  - {name: CAB, server: 51.77.53.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CAC, server: 104.19.53.145, port: 2053, client-fingerprint: chrome, type: trojan, password: 8557692d-c228-48f0-b6f9-50d44d4a2096, sni: tjjd.yzyx1.v6.army, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tjjd.yzyx1.v6.army}}, udp: true}
+  - {name: CAD, "type":"vmess","server":"104.17.156.224","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"in4.wish.ml"}}}
+  - {name: CAE, server: 172.67.204.84, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 02b3ec8f-f568-47c8-9746-fa9a24e547d6, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: fragment.mzolfaghari.homes, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: Freevpnhomes}, udp: true}
+  - {name: CAF, server: 51.77.53.200, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false, udp: true}
+  - {name: USA, server: 5.44.249.44, port: 3306, client-fingerprint: chrome, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: false, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
+  - {name: USB, server: 51.77.53.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: USC, server: 51.77.53.200, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
+  - {name: USD, server: 51.77.53.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: USE, "type":"ss","server":"52.88.161.5","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {name: USF, server: 51.145.96.134, port: 18869, type: ss, cipher: chacha20-ietf-poly1305, password: V8QywnpW9gaAwJfzkStkVp}
+  - {name: JPA, server: 118.163.128.81, port: 13688, client-fingerprint: chrome, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}, udp: true}
+  - {name: JPB, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: JPC, server: 51.145.101.254, port: 19054, type: ss, cipher: chacha20-ietf-poly1305, password: mGUCxJURD8yHfXexvivQhJ}
+  - {name: JPD, server: 183.236.51.59, port: 54437, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, udp: true}
+  - {name: JPE, "type":"vmess","server":"hk.wish.ml","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"in4.wish.ml"}}}
+  - {name: JPF, server: data-hk-v1.usabooks.com.cn, port: 20206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}}
+  - {name: SGA, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true}
+  - {name: SGB, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false}
+  - {name: SGC, server: 120.233.42.83, port: 20206, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}, udp: true}
+  - {name: SGD, server: data-hk-v1.usabooks.com.cn, port: 20206, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}, udp: true}
+  - {name: SGE, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: SGF, server: data-jp-v1.usabooks.com.cn, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}}
+  - {name: OpnAIa, "type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
+  - {name: OpnAIb, "type":"ss","server":"89.117.109.97","port":443,"password":"rhnAUMfOWIgjT917yYCG7u","cipher":"chacha20-ietf-poly1305"}
+  - {name: OpnAIc, "type":"vmess","server":"23.154.136.2","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {name: OpnAId, "type":"trojan","server":"36.151.195.48","port":20344,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
+  - {name: OpnAIe, "type":"vmess","server":"158.51.121.36","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {name: OpnAIf, "type":"ss","server":"212.102.53.195","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {name: OpnAIh, "type":"vmess","server":"45.136.245.240","port":12910,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {name: OpnAIi, "type":"ss","server":"94.228.165.178","port":58176,"password":"afKAHp1VfRWZu91LIi9o0D","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -178,38 +178,38 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -220,113 +220,113 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -342,38 +342,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 CAA
-      - 🇨🇦 CAB
-      - 🇨🇦 CAC
-      - 🇨🇦 CAD
-      - 🇨🇦 CAE
-      - 🇨🇦 CAF
-      - 🇺🇸 USA
-      - 🇺🇸 USB
-      - 🇺🇸 USC
-      - 🇺🇸 USD
-      - 🇺🇸 USE
-      - 🇺🇸 USF
-      - 🇯🇵 JPA
-      - 🇯🇵 JPB
-      - 🇯🇵 JPC
-      - 🇯🇵 JPD
-      - 🇯🇵 JPE
-      - 🇯🇵 JPF
-      - 🇸🇬 SGA
-      - 🇸🇬 SGB
-      - 🇸🇬 SGC
-      - 🇸🇬 SGD
-      - 🇸🇬 SGE
-      - 🇸🇬 SGF
-      - 🏁 OpnAIa
-      - 🏁 OpnAIb
-      - 🏁 OpnAIc
-      - 🏁 OpnAId
-      - 🏁 OpnAIe
-      - 🏁 OpnAIf
-      - 🏁 OpnAIh
-      - 🏁 OpnAIi
+      - CAA
+      - CAB
+      - CAC
+      - CAD
+      - CAE
+      - CAF
+      - USA
+      - USB
+      - USC
+      - USD
+      - USE
+      - USF
+      - JPA
+      - JPB
+      - JPC
+      - JPD
+      - JPE
+      - JPF
+      - SGA
+      - SGB
+      - SGC
+      - SGD
+      - SGE
+      - SGF
+      - OpnAIa
+      - OpnAIb
+      - OpnAIc
+      - OpnAId
+      - OpnAIe
+      - OpnAIf
+      - OpnAIh
+      - OpnAIi
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
