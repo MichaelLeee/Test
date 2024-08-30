@@ -1,0 +1,567 @@
+
+mixed-port: 7890
+allow-lan: false
+mode: "rule"
+log-level: "info"
+external-controller: "127.0.0.1:9999"
+dns:
+  enable: true
+  listen: "0.0.0.0:53"
+  ipv6: false
+  default-nameserver:
+  - "223.5.5.5"
+  - "114.114.114.114"
+  nameserver:
+  - "223.5.5.5"
+  - "114.114.114.114"
+  - "119.29.29.29"
+  - "180.76.76.76"
+  enhanced-mode: "fake-ip"
+  fake-ip-range: "198.18.0.1/16"
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - "router.asus.com"
+  - "localhost.sec.qq.com"
+  - "localhost.ptlogin2.qq.com"
+  - "+.msftconnecttest.com"
+tun:
+  enable: true
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+  - "114.114.114.114"
+  - "180.76.76.76"
+  - "119.29.29.29"
+  - "223.5.5.5"
+  - "8.8.8.8"
+  - "8.8.4.4"
+  - "1.1.1.1"
+  - "1.0.0.1"
+proxies:
+- name: "🛠️ SFA"
+  type: "vmess"
+  server: "104.26.5.67"
+  port: 2086
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🛠️ SFB"
+  type: "vmess"
+  server: "ip.sb"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🛠️ SFC"
+  type: "vmess"
+  server: "104.26.5.103"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🛠️ SFD"
+  type: "vmess"
+  server: "162.159.140.66"
+  port: 2086
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🛠️ SFE"
+  type: "vmess"
+  server: "104.26.5.113"
+  port: 2086
+  sni: "ip1.1789034.xyz"
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: false
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🔬 DPA"
+  type: "vmess"
+  server: "104.26.5.145"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🔬 DPB"
+  type: "vmess"
+  server: "104.26.7.132"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1457230.xyz"
+  alterId: 0
+- name: "🔬 DPC"
+  type: "vmess"
+  server: "172.67.71.187"
+  port: 2086
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🔬 DPD"
+  type: "vmess"
+  server: "23.227.38.3"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1457230.xyz"
+  alterId: 0
+- name: "🔬 DPE"
+  type: "vmess"
+  server: "malaysia.com"
+  port: 2086
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "📡 DKA"
+  type: "vmess"
+  server: "23.227.38.3"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1457230.xyz"
+  alterId: 0
+- name: "📡 DKB"
+  type: "vmess"
+  server: "104.26.5.66"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "📡 DKC"
+  type: "vmess"
+  server: "ip.sb"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "📡 DKD"
+  type: "vmess"
+  server: "162.159.140.77"
+  port: 2086
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "📡 DKE"
+  type: "vmess"
+  server: "104.26.5.56"
+  port: 2086
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "📡 DKF"
+  type: "vmess"
+  server: "162.159.140.19"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "📡 DKG"
+  type: "vmess"
+  server: "104.18.57.111"
+  port: 2086
+  sni: "ip11.freegradely.xyz"
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: false
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip11.freegradely.xyz"
+  alterId: 0
+- name: "📡 DKH"
+  type: "vmess"
+  server: "104.26.5.56"
+  port: 2086
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+proxy-groups:
+- name: "🚀 Select Node"
+  type: "select"
+  proxies:
+  - "♻️ Automatic"
+  - "DIRECT"
+  - "🛠️ SFA"
+  - "🛠️ SFB"
+  - "🛠️ SFC"
+  - "🛠️ SFD"
+  - "🛠️ SFE"
+  - "🔬 DPA"
+  - "🔬 DPB"
+  - "🔬 DPC"
+  - "🔬 DPD"
+  - "🔬 DPE"
+  - "📡 DKA"
+  - "📡 DKB"
+  - "📡 DKC"
+  - "📡 DKD"
+  - "📡 DKE"
+  - "📡 DKF"
+  - "📡 DKG"
+  - "📡 DKH"
+- name: "♻️ Automatic"
+  type: "url-test"
+  url: "http://www.gstatic.com/generate_204"
+  interval: 300
+  tolerance: 50
+  proxies:
+  - "🛠️ SFA"
+  - "🛠️ SFB"
+  - "🛠️ SFC"
+  - "🛠️ SFD"
+  - "🛠️ SFE"
+  - "🔬 DPA"
+  - "🔬 DPB"
+  - "🔬 DPC"
+  - "🔬 DPD"
+  - "🔬 DPE"
+  - "📡 DKA"
+  - "📡 DKB"
+  - "📡 DKC"
+  - "📡 DKD"
+  - "📡 DKE"
+  - "📡 DKF"
+  - "📡 DKG"
+  - "📡 DKH"
+- name: "🌍 Int'l Media"
+  type: "select"
+  proxies:
+  - "🚀 Select Node"
+  - "♻️ Automatic"
+  - "🎯 Direct"
+  - "🛠️ SFA"
+  - "🛠️ SFB"
+  - "🛠️ SFC"
+  - "🛠️ SFD"
+  - "🛠️ SFE"
+  - "🔬 DPA"
+  - "🔬 DPB"
+  - "🔬 DPC"
+  - "🔬 DPD"
+  - "🔬 DPE"
+  - "📡 DKA"
+  - "📡 DKB"
+  - "📡 DKC"
+  - "📡 DKD"
+  - "📡 DKE"
+  - "📡 DKF"
+  - "📡 DKG"
+  - "📡 DKH"
+- name: "📲 Telegram"
+  type: "select"
+  proxies:
+  - "🚀 Select Node"
+  - "🎯 Direct"
+  - "🛠️ SFA"
+  - "🛠️ SFB"
+  - "🛠️ SFC"
+  - "🛠️ SFD"
+  - "🛠️ SFE"
+  - "🔬 DPA"
+  - "🔬 DPB"
+  - "🔬 DPC"
+  - "🔬 DPD"
+  - "🔬 DPE"
+  - "📡 DKA"
+  - "📡 DKB"
+  - "📡 DKC"
+  - "📡 DKD"
+  - "📡 DKE"
+  - "📡 DKF"
+  - "📡 DKG"
+  - "📡 DKH"
+- name: "Ⓜ️ Microsoft"
+  type: "select"
+  proxies:
+  - "🎯 Direct"
+  - "🚀 Select Node"
+  - "🛠️ SFA"
+  - "🛠️ SFB"
+  - "🛠️ SFC"
+  - "🛠️ SFD"
+  - "🛠️ SFE"
+  - "🔬 DPA"
+  - "🔬 DPB"
+  - "🔬 DPC"
+  - "🔬 DPD"
+  - "🔬 DPE"
+  - "📡 DKA"
+  - "📡 DKB"
+  - "📡 DKC"
+  - "📡 DKD"
+  - "📡 DKE"
+  - "📡 DKF"
+  - "📡 DKG"
+  - "📡 DKH"
+- name: "🍎 Apple Inc"
+  type: "select"
+  proxies:
+  - "🚀 Select Node"
+  - "🎯 Direct"
+  - "🛠️ SFA"
+  - "🛠️ SFB"
+  - "🛠️ SFC"
+  - "🛠️ SFD"
+  - "🛠️ SFE"
+  - "🔬 DPA"
+  - "🔬 DPB"
+  - "🔬 DPC"
+  - "🔬 DPD"
+  - "🔬 DPE"
+  - "📡 DKA"
+  - "📡 DKB"
+  - "📡 DKC"
+  - "📡 DKD"
+  - "📡 DKE"
+  - "📡 DKF"
+  - "📡 DKG"
+  - "📡 DKH"
+- name: "🎯 Direct"
+  type: "select"
+  proxies:
+  - "DIRECT"
+  - "🚀 Select Node"
+  - "♻️ Automatic"
+- name: "🛑 AD Blocker"
+  type: "select"
+  proxies:
+  - "REJECT"
+  - "DIRECT"
+- name: "🍃 AD Blocking"
+  type: "select"
+  proxies:
+  - "REJECT"
+  - "DIRECT"
+- name: "🐟 Fugitive"
+  type: "select"
+  proxies:
+  - "🚀 Select Node"
+  - "🎯 Direct"
+  - "♻️ Automatic"
+  - "🛠️ SFA"
+  - "🛠️ SFB"
+  - "🛠️ SFC"
+  - "🛠️ SFD"
+  - "🛠️ SFE"
+  - "🔬 DPA"
+  - "🔬 DPB"
+  - "🔬 DPC"
+  - "🔬 DPD"
+  - "🔬 DPE"
+  - "📡 DKA"
+  - "📡 DKB"
+  - "📡 DKC"
+  - "📡 DKD"
+  - "📡 DKE"
+  - "📡 DKF"
+  - "📡 DKG"
+  - "📡 DKH"
+rule-providers:
+  Apple:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/Apple.list"
+  Telegram:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/Telegram.list"
+  ProxyLite:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ProxyLite.list"
+  ChinaDomain:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ChinaDomain.list"
+  ChinaCompanyIp:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ChinaCompanyIp.list"
+  ProxyMedia:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ProxyMedia.list"
+  LocalAreaNetwork:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/LocalAreaNetwork.list"
+  Microsoft:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/Microsoft.list"
+  GoogleCN:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/GoogleCN.list"
+  BanAD:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/BanAD.list"
+  BanProgramAD:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/BanProgramAD.list"
+  SteamCN:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/SteamCN.list"
+rules:
+# - DOMAIN,gemini.google.com,🚀 Select Node
+- "RULE-SET,LocalAreaNetwork,🎯 Direct"
+- "RULE-SET,BanAD,🛑 AD Blocker"
+- "RULE-SET,BanProgramAD,🍃 AD Blocking"
+- "RULE-SET,GoogleCN,🎯 Direct"
+- "RULE-SET,SteamCN,🎯 Direct"
+- "RULE-SET,Microsoft,Ⓜ️ Microsoft"
+- "RULE-SET,Apple,🍎 Apple Inc"
+- "RULE-SET,ProxyMedia,🌍 Int'l Media"
+- "RULE-SET,Telegram,📲 Telegram"
+- "RULE-SET,ProxyLite,🚀 Select Node"
+- "RULE-SET,ChinaDomain,🎯 Direct"
+- "RULE-SET,ChinaCompanyIp,🎯 Direct"
+- "GEOIP,CN,🎯 Direct"
+- "MATCH,🐟 Fugitive"
