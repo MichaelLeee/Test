@@ -82,20 +82,20 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {name: 🔗 FCAA, server: 162.159.128.105, port: 80, type: vmess, uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: rn2.hostmjj.com}}}
-  - {name: 🔗 FCAB, server: 104.20.17.186, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🔗 FCAC, server: 172.67.71.187, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
-  - {name: 🔗 FCAD, server: 185.103.103.4, port: 61017, type: ss, cipher: chacha20-ietf-poly1305, password: ZqbT90kVWy8VDSDFeLORKK}
-  - {name: 🏴‍☠️ FUSA, server: 23.227.38.13, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, servername: cdn3.freegradely.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
-  - {name: 🏴‍☠️ FUSB, server: 213.156.137.67, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🏴‍☠️ FUSC, server: 104.26.7.132, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
-  - {name: 🏴‍☠️ FUSD, server: 104.18.14.166, port: 8443, type: trojan, password: auto, sni: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com, network: ws, ws-opts: {path: "/abbas.ab841vpn.workers.dev/?ed=2560", headers: {Host: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com}}}
-  - {name: 🏁 OPIA, server: 162.159.140.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
-  - {name: 🏁 OPIB, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🏁 OPIC, server: 104.20.25.146, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🔗 FCAA, server: 23.227.38.5, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.freegradely.xyz}}}
+  - {name: 🔗 FCAB, server: cn2.cdn.xfltd-cdn.top, port: 12023, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🔗 FCAC, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.3196772.xyz}}}
+  - {name: 🔗 FCAD, server: ip.sb, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🏴‍☠️ FUSA, server: malaysia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🏴‍☠️ FUSB, server: 162.159.153.230, port: 443, type: trojan, password: tg-dns68, sni: vip.putata.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.putata.eu.org}}}
+  - {name: 🏴‍☠️ FUSC, server: 104.26.5.113, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🏴‍☠️ FUSD, server: 162.159.152.55, port: 443, type: trojan, password: tg-dns68, sni: vip.putata.eu.org, network: ws, ws-opts: {path: "", headers: {Host: vip.putata.eu.org}}}
+  - {name: 🏁 OPIA, server: 52.169.71.100, port: 49309, type: ss, cipher: chacha20-ietf-poly1305, password: dA0qfWwj3b7JszA2cuO3kR}
+  - {name: 🏁 OPIB, server: fbi.gov, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🏁 OPIC, server: 172.67.74.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
   - {name: 🏁 OPID, server: 183.236.48.163, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🏁 OPIE, server: 183.238.202.173, port: 54565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🏁 OPIF, server: 172.64.198.229, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: 🏁 OPIE, server: singapore.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🏁 OPIF, server: japan.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
 proxy-groups:
   - name: 🔰 Select Node
     type: select
@@ -483,7 +483,8 @@ rules:
   - DOMAIN-SUFFIX,staticxx.facebook.com,🛑 ad Blocking
   
   # -- end.  --
-  # Main domain
+  # OpenAi Main domain
+  - DOMAIN-KEYWORD,openai,📡 OpenAI
   - DOMAIN-SUFFIX,chatgpt.com,📡 OpenAI
   - DOMAIN-SUFFIX,chatgpt.ai,📡 OpenAI
   - DOMAIN-SUFFIX,chatgpt.org.ua,📡 OpenAI
@@ -494,6 +495,17 @@ rules:
   - DOMAIN-SUFFIX,api.openai.com,📡 OpenAI
   - DOMAIN-SUFFIX,oaistatic.com,📡 OpenAI
   - DOMAIN-SUFFIX,oaiusercontent.com,📡 OpenAI
+    # -- add 8/21 --
+  - DOMAIN-SUFFIX,auth0.com,📡 OpenAI
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,📡 OpenAI
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,📡 OpenAI
+  - DOMAIN-SUFFIX,events.statsigapi.net,📡 OpenAI
+  - DOMAIN-SUFFIX,featuregates.org,📡 OpenAI
+  - DOMAIN-SUFFIX,identrust.com,📡 OpenAI
+  - DOMAIN-SUFFIX,intercom.io,📡 OpenAI
+  - DOMAIN-SUFFIX,intercomcdn.com,📡 OpenAI
+  - DOMAIN-SUFFIX,sentry.io,📡 OpenAI
+  - DOMAIN-SUFFIX,stripe.com,📡 OpenAI
   # CDN & API
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net,📡 OpenAI
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,📡 OpenAI
@@ -501,7 +513,8 @@ rules:
   - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,📡 OpenAI
   - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net,📡 OpenAI
   - DOMAIN-SUFFIX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$,📡 OpenAI
-  
+
+  - DOMAIN,gemini.google.com,🌍 Int'l Media
   - DOMAIN-SUFFIX,ext-twitch.tv,🌍 Int'l Media
   - DOMAIN-SUFFIX,jtvnw.net,🌍 Int'l Media
   - DOMAIN-SUFFIX,ttvnw.net,🌍 Int'l Media
@@ -723,6 +736,7 @@ rules:
   - DOMAIN-SUFFIX,wetvinfo.com,🌍 Int'l Media
   - IP-CIDR,150.109.28.51/32,🌍 Int'l Media,no-resolve
   - DOMAIN-SUFFIX,googlevideo.com,🌍 Int'l Media
+  - DOMAIN-KEYWORD,google,🌍 Int'l Media
   - DOMAIN-SUFFIX,withyoutube.com,🌍 Int'l Media
   - DOMAIN-SUFFIX,youtu.be,🌍 Int'l Media
   - DOMAIN-SUFFIX,youtube.com,🌍 Int'l Media
