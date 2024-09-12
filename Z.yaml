@@ -1,4 +1,7 @@
-
+# 创建者：v2rayse.com 自动创建
+# 创建时间：2024-08-18 08:00:00
+# 节点类型：vmess, ss
+---
 mixed-port: 7890
 allow-lan: false
 mode: "rule"
@@ -45,9 +48,97 @@ tun:
   - "1.1.1.1"
   - "1.0.0.1"
 proxies:
-- name: "🛠️ SFA"
+- name: "💎 USCA"
+  type: "ss"
+  server: "156.146.62.162"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
+- name: "💎 USCB"
+  type: "ss"
+  server: "156.146.62.164"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
+- name: "💎 USCC"
+  type: "trojan"
+  server: "13.49.61.224"
+  port: 22222
+  cipher: "aes-256-cfb"
+  password: "telegram-id-directvpn"
+  sni: "trojan.burgerip.co.uk"
+- name: "💎 USCD"
+  type: "ss"
+  server: "38.91.100.211"
+  port: 2375
+  cipher: "aes-256-gcm"
+  password: "faBAoD54k87UJG7"
+- name: "💎 USCE"
+  type: "ss"
+  server: "156.146.62.164"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
+- name: "💎 USCF"
+  type: "ss"
+  server: "212.102.47.130"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
+- name: "💎 USCG"
   type: "vmess"
-  server: "104.26.5.67"
+  server: "185.247.184.115"
+  port: 2098
+  sni: ""
+  uuid: "83876222-64a4-4912-aa18-b7d9d34959de"
+  cipher: "auto"
+  network: "http"
+  skip-cert-verify: true
+  http-opts: {}
+  alterId: 0
+- name: "💎 USCH"
+  type: "trojan"
+  server: "18.199.10.68"
+  port: 22222
+  password: "telegram-id-directvpn"
+  sni: "trojan.burgerip.co.uk"
+- name: "💎 USCI"
+  type: "vmess"
+  server: "172.64.167.35"
+  port: 2086
+  sni: "ip2.1457230.xyz"
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: false
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip2.1457230.xyz"
+  alterId: 0
+- name: "💎 USCJ"
+  type: "ss"
+  server: "38.68.135.112"
+  port: 5500
+  cipher: "aes-256-gcm"
+  password: "KixLvKzwjekG00rm"
+- name: "💎 USCK"
+  type: "vmess"
+  server: "104.26.5.112"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "💎 USCL"
+  type: "vmess"
+  server: "172.67.71.187"
   port: 2086
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
   cipher: "auto"
@@ -56,6 +147,48 @@ proxies:
     path: "github.com/Alvin9999"
     headers:
       host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "💎 USCM"
+  type: "vmess"
+  server: "162.159.140.33"
+  port: 2086
+  sni: "ip1.1789034.xyz"
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: false
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "💎 USCN"
+  type: "vmess"
+  server: "104.19.51.232"
+  port: 2086
+  sni: ""
+  uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip006.3196772.xyz"
+  alterId: 0
+- name: "🛠️ SFA"
+  type: "vmess"
+  server: "172.64.166.12"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip2.1457230.xyz"
   alterId: 0
 - name: "🛠️ SFB"
   type: "vmess"
@@ -141,11 +274,13 @@ proxies:
   alterId: 0
 - name: "🔬 DPC"
   type: "vmess"
-  server: "172.67.71.187"
+  server: "singapore.com"
   port: 2086
+  sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
   cipher: "auto"
   network: "ws"
+  skip-cert-verify: true
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
@@ -179,17 +314,17 @@ proxies:
   alterId: 0
 - name: "📡 DKA"
   type: "vmess"
-  server: "23.227.38.3"
+  server: "104.26.5.88"
   port: 2086
-  sni: ""
+  sni: "ip1.1789034.xyz"
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
   cipher: "auto"
   network: "ws"
-  skip-cert-verify: true
+  skip-cert-verify: false
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
-      host: "ip1.1457230.xyz"
+      host: "ip1.1789034.xyz"
   alterId: 0
 - name: "📡 DKB"
   type: "vmess"
@@ -259,29 +394,31 @@ proxies:
   alterId: 0
 - name: "📡 DKG"
   type: "vmess"
-  server: "104.18.57.111"
+  server: "104.26.0.50"
   port: 2086
-  sni: "ip11.freegradely.xyz"
+  sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
   cipher: "auto"
   network: "ws"
-  skip-cert-verify: false
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip5-4.freegradely.xyz"
+  alterId: 0
+- name: "📡 DKH"
+  type: "vmess"
+  server: "172.67.74.112"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
       host: "ip11.freegradely.xyz"
-  alterId: 0
-- name: "📡 DKH"
-  type: "vmess"
-  server: "104.26.5.56"
-  port: 2086
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip1.1789034.xyz"
   alterId: 0
 proxy-groups:
 - name: "🚀 Select Node"
@@ -289,6 +426,20 @@ proxy-groups:
   proxies:
   - "♻️ Automatic"
   - "DIRECT"
+  - "💎 USCA"
+  - "💎 USCB"
+  - "💎 USCC"
+  - "💎 USCD"
+  - "💎 USCE"
+  - "💎 USCF"
+  - "💎 USCG"
+  - "💎 USCH"
+  - "💎 USCI"
+  - "💎 USCJ"
+  - "💎 USCK"
+  - "💎 USCL"
+  - "💎 USCM"
+  - "💎 USCN"
   - "🛠️ SFA"
   - "🛠️ SFB"
   - "🛠️ SFC"
@@ -313,6 +464,20 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - "💎 USCA"
+  - "💎 USCB"
+  - "💎 USCC"
+  - "💎 USCD"
+  - "💎 USCE"
+  - "💎 USCF"
+  - "💎 USCG"
+  - "💎 USCH"
+  - "💎 USCI"
+  - "💎 USCJ"
+  - "💎 USCK"
+  - "💎 USCL"
+  - "💎 USCM"
+  - "💎 USCN"
   - "🛠️ SFA"
   - "🛠️ SFB"
   - "🛠️ SFC"
@@ -337,6 +502,20 @@ proxy-groups:
   - "🚀 Select Node"
   - "♻️ Automatic"
   - "🎯 Direct"
+  - "💎 USCA"
+  - "💎 USCB"
+  - "💎 USCC"
+  - "💎 USCD"
+  - "💎 USCE"
+  - "💎 USCF"
+  - "💎 USCG"
+  - "💎 USCH"
+  - "💎 USCI"
+  - "💎 USCJ"
+  - "💎 USCK"
+  - "💎 USCL"
+  - "💎 USCM"
+  - "💎 USCN"
   - "🛠️ SFA"
   - "🛠️ SFB"
   - "🛠️ SFC"
@@ -360,6 +539,20 @@ proxy-groups:
   proxies:
   - "🚀 Select Node"
   - "🎯 Direct"
+  - "💎 USCA"
+  - "💎 USCB"
+  - "💎 USCC"
+  - "💎 USCD"
+  - "💎 USCE"
+  - "💎 USCF"
+  - "💎 USCG"
+  - "💎 USCH"
+  - "💎 USCI"
+  - "💎 USCJ"
+  - "💎 USCK"
+  - "💎 USCL"
+  - "💎 USCM"
+  - "💎 USCN"
   - "🛠️ SFA"
   - "🛠️ SFB"
   - "🛠️ SFC"
@@ -383,6 +576,20 @@ proxy-groups:
   proxies:
   - "🎯 Direct"
   - "🚀 Select Node"
+  - "💎 USCA"
+  - "💎 USCB"
+  - "💎 USCC"
+  - "💎 USCD"
+  - "💎 USCE"
+  - "💎 USCF"
+  - "💎 USCG"
+  - "💎 USCH"
+  - "💎 USCI"
+  - "💎 USCJ"
+  - "💎 USCK"
+  - "💎 USCL"
+  - "💎 USCM"
+  - "💎 USCN"
   - "🛠️ SFA"
   - "🛠️ SFB"
   - "🛠️ SFC"
@@ -406,6 +613,20 @@ proxy-groups:
   proxies:
   - "🚀 Select Node"
   - "🎯 Direct"
+  - "💎 USCA"
+  - "💎 USCB"
+  - "💎 USCC"
+  - "💎 USCD"
+  - "💎 USCE"
+  - "💎 USCF"
+  - "💎 USCG"
+  - "💎 USCH"
+  - "💎 USCI"
+  - "💎 USCJ"
+  - "💎 USCK"
+  - "💎 USCL"
+  - "💎 USCM"
+  - "💎 USCN"
   - "🛠️ SFA"
   - "🛠️ SFB"
   - "🛠️ SFC"
@@ -446,6 +667,20 @@ proxy-groups:
   - "🚀 Select Node"
   - "🎯 Direct"
   - "♻️ Automatic"
+  - "💎 USCA"
+  - "💎 USCB"
+  - "💎 USCC"
+  - "💎 USCD"
+  - "💎 USCE"
+  - "💎 USCF"
+  - "💎 USCG"
+  - "💎 USCH"
+  - "💎 USCI"
+  - "💎 USCJ"
+  - "💎 USCK"
+  - "💎 USCL"
+  - "💎 USCM"
+  - "💎 USCN"
   - "🛠️ SFA"
   - "🛠️ SFB"
   - "🛠️ SFC"
