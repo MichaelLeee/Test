@@ -82,79 +82,163 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {name: 🔗 FCAA, server: 23.227.38.5, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.freegradely.xyz}}}
-  - {name: 🔗 FCAB, server: cn2.cdn.xfltd-cdn.top, port: 12023, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🔗 FCAC, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.3196772.xyz}}}
-  - {name: 🔗 FCAD, server: ip.sb, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
-  - {name: 🏴‍☠️ FUSA, server: malaysia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
-  - {name: 🏴‍☠️ FUSB, server: 162.159.153.230, port: 443, type: trojan, password: tg-dns68, sni: vip.putata.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vip.putata.eu.org}}}
-  - {name: 🏴‍☠️ FUSC, server: 104.26.5.113, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
-  - {name: 🏴‍☠️ FUSD, server: 162.159.152.55, port: 443, type: trojan, password: tg-dns68, sni: vip.putata.eu.org, network: ws, ws-opts: {path: "", headers: {Host: vip.putata.eu.org}}}
-  - {name: 🏁 OPIA, server: 52.169.71.100, port: 49309, type: ss, cipher: chacha20-ietf-poly1305, password: dA0qfWwj3b7JszA2cuO3kR}
-  - {name: 🏁 OPIB, server: fbi.gov, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
-  - {name: 🏁 OPIC, server: 172.67.74.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🔗 ANEA, server: 183.236.51.23, port: 45020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🔗 ANEB, server: 5.44.249.42, port: 3306, type: trojan, password: b84d16a244460e09, sni: TG.WangCai2, skip-cert-verify: true, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai2}}}
+  - {name: 🔗 ANEC, server: gdyddx500.xiyunchen.cn, port: 1342, type: ss, cipher: chacha20-ietf-poly1305, password: 63b37069-ade8-4d4c-a6dc-1161df539069}
+  - {name: 🔗 ANED, server: speedtest.net, port: 443, type: vmess, uuid: 4666f195-91fd-4b44-abe9-8b2fa417d8d8, alterId: 0, cipher: auto, tls: true, servername: speedtest.net, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: Dbdjhiw72ebsu272hs519j.com}}}
+  - {name: 🏴‍☠️ GOGA, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
+  - {name: 🏴‍☠️ GOGB, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aliorg.filegear-sg.me}}}
+  - {name: 🏴‍☠️ GOGC, server: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com, port: 1007, type: trojan, password: 88903f70-b50b-11ed-8775-f23c9164ca5d}
+  - {name: 🏴‍☠️ GOGD, server: 183.238.90.3, port: 40890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🏁 OPIA, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 🏁 OPIB, server: yd1.qianggewangluo.buzz, port: 10809, type: ss, cipher: chacha20-ietf-poly1305, password: 36fdc73d-0bff-4d66-9759-e81c63de16b6}
+  - {name: 🏁 OPIC, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
   - {name: 🏁 OPID, server: 183.236.48.163, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🏁 OPIE, server: singapore.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
-  - {name: 🏁 OPIF, server: japan.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🏁 OPIE, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: 🏁 OPIF, server: iepl5.forlive.live, port: 50118, type: ss, cipher: chacha20-ietf-poly1305, password: c4d5cfd7-45e7-3296-befa-12db5a2de771}
+  - name: "🦩 UICA" # Italy
+    type: "ss"
+    server: "212.102.47.130"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "🦩 UICB" # Anhui mobile
+    type: "vmess"
+    server: "45.130.147.178"
+    port: 40045
+    uuid: "a337ed65-fff3-4673-9a35-5c33440d9c07"
+    cipher: "auto"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/"
+    alterId: 0
+  - name: "🦩 UICC"
+    type: "vmess"
+    server: "120.232.153.40"
+    port: 35601
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    cipher: "auto"
+    tls: false
+    alterId: 64
+  - name: "🦩 UICD" # US Amazon
+    type: "vmess"
+    server: "185.247.184.115"
+    port: 2098
+    sni: ""
+    uuid: "83876222-64a4-4912-aa18-b7d9d34959de"
+    cipher: "auto"
+    network: "http"
+    skip-cert-verify: true
+    http-opts: {}
+    alterId: 0
+  - name: "🦩 UICE" # Shandong union
+    type: "ss"
+    server: "yd1.qianggewangluo.buzz"
+    port: 10809
+    cipher: "chacha20-ietf-poly1305"
+    password: "36fdc73d-0bff-4d66-9759-e81c63de16b6"
+  - name: "🦩 UICF" # Russia JustHost
+    type: "ss"
+    server: "38.91.100.211"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+  - name: "🦩 UICG" # Hunan union
+    type: "ss"
+    server: "51.15.27.48"
+    port: 989
+    cipher: "aes-256-cfb"
+    password: "f8f7aCzcPKbsF8p3"
+  - name: "🦩 UICH" # Russia JustHost
+    type: "ss"
+    server: "156.146.62.164"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
 proxy-groups:
   - name: 🔰 Select Node
     type: select
     proxies:
       - ♻️ Automatic
       - 🎯 Direct
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
   - name: ♻️ Automatic
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
   - name: 📡 OpenAI
     type: select
     proxies:
       - 🔰 Select Node
       - ♻️ Automatic
       - 🎯 Direct
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
   - name: ⛔️ ad Blocker
     type: select
     proxies:
@@ -173,20 +257,28 @@ proxy-groups:
       - 🔰 Select Node
       - ♻️ Automatic
       - 🎯 Direct
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
   - name: 🌏 Local Media
     type: select
     proxies:
@@ -197,59 +289,83 @@ proxy-groups:
     proxies:
       - 🎯 Direct
       - 🔰 Select Node
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
   - name: 📲 Telegram
     type: select
     proxies:
       - 🔰 Select Node
       - 🎯 Direct
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
   - name: 🍎 Apple
     type: select
     proxies:
       - 🔰 Select Node
       - 🎯 Direct
       - ♻️ Automatic
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
   - name: 🎯 Direct
     type: select
     proxies:
@@ -265,20 +381,28 @@ proxy-groups:
       - 🔰 Select Node
       - 🎯 Direct
       - ♻️ Automatic
-      - 🔗 FCAA
-      - 🔗 FCAB
-      - 🔗 FCAC
-      - 🔗 FCAD
-      - 🏴‍☠️ FUSA
-      - 🏴‍☠️ FUSB
-      - 🏴‍☠️ FUSC
-      - 🏴‍☠️ FUSD
+      - 🔗 ANEA
+      - 🔗 ANEB
+      - 🔗 ANEC
+      - 🔗 ANED
+      - 🏴‍☠️ GOGA
+      - 🏴‍☠️ GOGB
+      - 🏴‍☠️ GOGC
+      - 🏴‍☠️ GOGD
       - 🏁 OPIA
       - 🏁 OPIB
       - 🏁 OPIC
       - 🏁 OPID
       - 🏁 OPIE
       - 🏁 OPIF
+      - "🦩 UICA"
+      - "🦩 UICB"
+      - "🦩 UICC"
+      - "🦩 UICD"
+      - "🦩 UICE"
+      - "🦩 UICF"
+      - "🦩 UICG"
+      - "🦩 UICH"
 rules:
   - DOMAIN-SUFFIX,local,🎯 Direct
   - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
