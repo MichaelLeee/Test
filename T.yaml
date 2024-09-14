@@ -84,12 +84,12 @@ dns:
 proxies:
   - {name: 🔗 ANEA, server: 120.232.153.37, port: 42055, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🔗 ANEB, server: 5.44.249.42, port: 3306, type: trojan, password: b84d16a244460e09, sni: TG.WangCai2, skip-cert-verify: true, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai2}}}
-  - {name: 🔗 ANEC, server: 36.151.195.83, port: 55314, client-fingerprint: chrome, type: trojan, password: lNOcIAxy, skip-cert-verify: true}
+  - {name: 🔗 ANEC, server: 103.161.255.195, port: 16088, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, tfo: false}
   - {name: 🔗 ANED, server: 212.102.47.130, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: 🏴‍☠️ GOGA, server: 183.238.90.3, port: 40890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🏴‍☠️ GOGA, server: 36.151.195.83, port: 55314, type: trojan, password: lNOcIAxy, skip-cert-verify: true}
   - {name: 🏴‍☠️ GOGB, server: 154.205.139.44, port: 6259, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: YCxWVzJ5291c, tfo: false}
-  - {name: 🏴‍☠️ GOGC, server: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com, port: 1007, type: trojan, password: 88903f70-b50b-11ed-8775-f23c9164ca5d}
-  - {name: 🏴‍☠️ GOGD, server: p232.panda004.net, port: 7718, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: 🏴‍☠️ GOGC, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🏴‍☠️ GOGD, server: 212.102.47.130, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
   - {name: 🏁 OPIA, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
   - {name: 🏁 OPIB, server: yd1.qianggewangluo.buzz, port: 10809, type: ss, cipher: chacha20-ietf-poly1305, password: 36fdc73d-0bff-4d66-9759-e81c63de16b6}
   - {name: 🏁 OPIC, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
@@ -99,7 +99,7 @@ proxies:
   - {name: 🦩 UICB, server: group-south-01.nutbit-node.lat, port: 11015, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: e825e523-a6e5-4a1a-bd46-48c797a62e49, tfo: false}
   - {name: 🦩 UICC, server: kr01.panghu.buzz, port: 41900, type: vmess, uuid: 7f1e0179-3a0c-4b73-8e47-23af361e903e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bing.com}}}
   - {name: 🦩 UICD, server: 103.161.255.195, port: 15084, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, tfo: false}
-  - {name: 🦩 UICE, server: 183.236.51.23, port: 45020, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🦩 UICE, server: 176.32.35.167, port: 1007, type: trojan, password: 88903f70-b50b-11ed-8775-f23c9164ca5d, sni: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com}
 proxy-groups:
   - name: 🔰 Select Node
     type: select
