@@ -63,34 +63,20 @@ proxies:
     ip-version: dual
     udp: true
   # -- Int'l Node -- 
-  - name: 🇺🇳 INTLs # Los Angeles
-    server: 104.18.149.76
-    port: 443
-    type: vmess
-    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
+  - name: 🇺🇳 INTLs 
+    server: 108.162.195.20
+    port: 8880
+    type: vless
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    tls: false
+    skip-cert-verify: false
+    servername: ip.langmanshanxi.top
     network: ws
     ws-opts:
-      path: /aa
+      path: "/Telegram@WangCai2/?ed=2560"
       headers:
-        Host: us.kkp.me.eu.org
-    tfo: false
-    # server: 108.162.195.20
-    # port: 8880
-    # type: vless
-    # uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    # tls: false
-    # skip-cert-verify: false
-    # servername: ip.langmanshanxi.top
-    # network: ws
-    # ws-opts:
-    #   path: "/Telegram@WangCai2/?ed=2560"
-    #   headers:
-    #     Host: ip.langmanshanxi.top
-    # udp: true
+        Host: ip.langmanshanxi.top
+    udp: true
   - name: 🇺🇳 INTLv # San Jose CA
     server: 104.21.20.162
     port: 8443
@@ -177,55 +163,31 @@ proxies:
       headers:
         Host: JJANGESN.sbs
     udp: true
-  - name: 🏴‍☠️ UNTc # Korea
-    server: 156.238.18.196
-    port: 2083
+  - name: 🏴‍☠️ UNTc 
+    server: 154.83.2.54
+    port: 2096
     type: trojan
     password: d6b8011a-c725-435a-9fec-bf6d3530392c
-    sni: vle.amclubdns.dpdns.org
+    sni: vle.amclubsvip.dpdns.org
     skip-cert-verify: true
     network: ws
     ws-opts:
       path: "/?ed=2560&PROT_TYPE=trojan"
       headers:
-        Host: vle.amclubdns.dpdns.org
-    tfo: false
-    # server: 154.83.2.54
-    # port: 2096
-    # type: trojan
-    # password: d6b8011a-c725-435a-9fec-bf6d3530392c
-    # sni: vle.amclubsvip.dpdns.org
-    # skip-cert-verify: true
-    # network: ws
-    # ws-opts:
-    #   path: "/?ed=2560&PROT_TYPE=trojan"
-    #   headers:
-    #     Host: vle.amclubsvip.dpdns.org
+        Host: vle.amclubsvip.dpdns.org
   - name: 🏴‍☠️ UNTe
-    server: 103.160.204.40
+    server: 92.243.74.180
     port: 8443
     type: trojan
-    password: d6b8011a-c725-435a-9fec-bf6d3530392c
-    sni: vle.amclubdns.dpdns.org
-    skip-cert-verify: true
+    password: Aimer
+    sni: tyep.esslh.filegear-sg.me
+    skip-cert-verify: false
     network: ws
     ws-opts:
-      path: "/?ed=2560&PROT_TYPE=trojan"
+      path: /
       headers:
-        Host: vle.amclubdns.dpdns.org
-    tfo: false
-    # server: 92.243.74.180
-    # port: 8443
-    # type: trojan
-    # password: Aimer
-    # sni: tyep.esslh.filegear-sg.me
-    # skip-cert-verify: false
-    # network: ws
-    # ws-opts:
-    #   path: /
-    #   headers:
-    #     Host: tyep.esslh.filegear-sg.me
-    # udp: true
+        Host: tyep.esslh.filegear-sg.me
+    udp: true
 # -- settings --
 proxy-groups:
 - name: 🐬 Select Node
