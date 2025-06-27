@@ -122,32 +122,7 @@ proxies:
       headers:
         Host: ghh.wsthh.site
     udp: true
-    # server: 27.50.49.224
-    # port: 8443
-    # type: trojan
-    # password: Aimer
-    # sni: tyep.esslh.filegear-sg.me
-    # skip-cert-verify: false
-    # network: ws
-    # ws-opts:
-    #   path: /
-    #   headers:
-    #     Host: tyep.esslh.filegear-sg.me
-    # udp: true
-  - name: 🏴‍☠️ UNTa # Germany
-    # server: 104.24.247.217
-    # port: 80
-    # type: vless
-    # uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
-    # tls: false
-    # skip-cert-verify: true
-    # servername: dw.alibichareh.dpdns.org
-    # network: ws
-    # ws-opts:
-    #   path: "/?ed=2560"
-    #   headers:
-    #     Host: dw.alibichareh.dpdns.org
-    # udp: true
+  - name: 🏴‍☠️ UNTa 
     server: www.speedtesT.NET
     port: 8443
     type: vless
@@ -163,18 +138,32 @@ proxies:
       headers:
         Host: JJANGESN.sbs
     udp: true
-  - name: 🏴‍☠️ UNTc 
-    server: 154.83.2.54
-    port: 2096
-    type: trojan
-    password: d6b8011a-c725-435a-9fec-bf6d3530392c
-    sni: vle.amclubsvip.dpdns.org
+  - name: 🏴‍☠️ UNTc
+    server: 104.24.247.217
+    port: 80
+    type: vless
+    uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+    tls: false
     skip-cert-verify: true
+    servername: dw.alibichareh.dpdns.org
     network: ws
     ws-opts:
-      path: "/?ed=2560&PROT_TYPE=trojan"
+      path: "/?ed=2560"
       headers:
-        Host: vle.amclubsvip.dpdns.org
+        Host: dw.alibichareh.dpdns.org
+    udp: true
+    # server: 27.50.49.224
+    # port: 8443
+    # type: trojan
+    # password: Aimer
+    # sni: tyep.esslh.filegear-sg.me
+    # skip-cert-verify: false
+    # network: ws
+    # ws-opts:
+    #   path: /
+    #   headers:
+    #     Host: tyep.esslh.filegear-sg.me
+    # udp: true
   - name: 🏴‍☠️ UNTe
     server: 92.243.74.180
     port: 8443
