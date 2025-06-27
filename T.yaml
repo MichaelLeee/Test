@@ -139,31 +139,18 @@ proxies:
         Host: JJANGESN.sbs
     udp: true
   - name: 🏴‍☠️ UNTc
-    server: 104.24.247.217
-    port: 80
-    type: vless
-    uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
-    tls: false
-    skip-cert-verify: true
-    servername: dw.alibichareh.dpdns.org
+    server: 27.50.49.224
+    port: 8443
+    type: trojan
+    password: Aimer
+    sni: tyep.esslh.filegear-sg.me
+    skip-cert-verify: false
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: /
       headers:
-        Host: dw.alibichareh.dpdns.org
+        Host: tyep.esslh.filegear-sg.me
     udp: true
-    # server: 27.50.49.224
-    # port: 8443
-    # type: trojan
-    # password: Aimer
-    # sni: tyep.esslh.filegear-sg.me
-    # skip-cert-verify: false
-    # network: ws
-    # ws-opts:
-    #   path: /
-    #   headers:
-    #     Host: tyep.esslh.filegear-sg.me
-    # udp: true
   - name: 🏴‍☠️ UNTe
     server: 92.243.74.180
     port: 8443
